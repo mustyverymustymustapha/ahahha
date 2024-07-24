@@ -40,3 +40,81 @@ h1 {
   margin-top: 1rem;
   font-weight: bold;
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #f06, #9f6);
+  min-height: 200vh; /* Make the page taller to enable scrolling */
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+#languageButton, #easterEggButton {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#languageButton:hover, #easterEggButton:hover {
+  background-color: #45a049;
+}
+
+#result {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.spacer {
+  height: 100vh; /* Creates space to push the Easter egg section down */
+}
+
+.easter-egg-section {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+#easterEggButton {
+  background-color: #f39c12;
+  margin-bottom: 2rem;
+}
+
+#easterEggButton:hover {
+  background-color: #e67e22;
+}
+
+.cat-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 2rem auto 0;
+}
+
+.cat-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
