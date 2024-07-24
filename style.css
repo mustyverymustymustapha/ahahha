@@ -1,11 +1,8 @@
 body {
   font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   margin: 0;
   background: linear-gradient(135deg, #f06, #9f6);
+  min-height: 200vh; /* Make the page taller to enable scrolling */
 }
 
 .container {
@@ -14,6 +11,8 @@ body {
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 600px;
 }
 
 h1 {
@@ -21,7 +20,7 @@ h1 {
   margin-bottom: 1rem;
 }
 
-#languageButton {
+#languageButton, #easterEggButton {
   font-size: 1.2rem;
   padding: 0.5rem 1rem;
   background-color: #4CAF50;
@@ -32,7 +31,7 @@ h1 {
   transition: background-color 0.3s;
 }
 
-#languageButton:hover {
+#languageButton:hover, #easterEggButton:hover {
   background-color: #45a049;
 }
 
@@ -40,5 +39,4 @@ h1 {
   font-size: 1.5rem;
   margin-top: 1rem;
   font-weight: bold;
-  color: #333;
 }

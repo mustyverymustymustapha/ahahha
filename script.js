@@ -7,11 +7,15 @@ const languages = [
 ];
 const button = document.getElementById('languageButton');
 const result = document.getElementById('result');
+const easterEggButton = document.getElementById('easterEggButton');
 button.addEventListener('click', () => {
   const randomIndex = Math.floor(Math.random() * languages.length);
   const chosenLanguage = languages[randomIndex];
   result.textContent = chosenLanguage;
   result.style.color = getRandomColor();
+});
+easterEggButton.addEventListener('click', () => {
+  alert("You found the Easter Egg! But the cat was here all along!");
 });
 function getRandomColor() {
   const letters = '0123456789ABCDEF';
